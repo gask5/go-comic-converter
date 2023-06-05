@@ -119,7 +119,7 @@ func (e *EPUBImageProcessor) Load() (images []*epubimage.Image, err error) {
 
 	for img := range imageOutput {
 		if img.Part == 0 {
-			bar.Add(1)
+			continue
 		}
 		if e.Image.NoBlankImage && img.IsBlank {
 			continue
