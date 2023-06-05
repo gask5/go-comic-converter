@@ -12,9 +12,9 @@ import (
 	"os"
 	"runtime/debug"
 
-	"github.com/celogeek/go-comic-converter/v2/internal/converter"
-	"github.com/celogeek/go-comic-converter/v2/internal/epub"
-	epuboptions "github.com/celogeek/go-comic-converter/v2/internal/epub/options"
+	"github.com/gask5/go-comic-converter/v2/internal/converter"
+	"github.com/gask5/go-comic-converter/v2/internal/epub"
+	epuboptions "github.com/gask5/go-comic-converter/v2/internal/epub/options"
 	"github.com/tcnksm/go-latest"
 )
 
@@ -51,7 +51,7 @@ func main() {
   Available Version: %s
 
 To install the latest version:
-$ go install github.com/celogeek/go-comic-converter/v%d@%s
+$ go install github.com/gask5/go-comic-converter/v%d@%s
 `,
 			bi.Main.Path,
 			bi.Main.Sum,
